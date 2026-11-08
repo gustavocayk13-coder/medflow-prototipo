@@ -1,4 +1,3 @@
-# medflow-prototipo
 Protótipo acadêmico de recepção hospitalar digital, com fluxo para pacientes e painel da recepção, desenvolvido em HTML, CSS e JavaScript.
 MedFlow — Protótipo de recepção hospitalar com IA
 =================================================
@@ -17,7 +16,7 @@ build) de uma plataforma de recepção hospitalar inteligente, com três partes:
 
 Como abrir
 ----------
-1. Extraia o ZIP (clique direito > "Extrair tudo").
+1. Baixe o repositório e abra index.html no navegador
 2. Dentro da pasta MedFlow, abra o arquivo index.html em um navegador
 (Chrome, Edge ou Firefox).
 Para ver a integração entre as telas, abra o fluxo do paciente e o
