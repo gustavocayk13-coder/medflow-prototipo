@@ -1,35 +1,31 @@
-# MedFlow — Protótipo de recepção hospitalar com IA
-Protótipo acadêmico de recepção hospitalar digital, com fluxo para pacientes e painel da recepção, desenvolvido em HTML, CSS e JavaScript.
+# MedFlow — Protótipo de recepção hospitalar
+
+Protótipo acadêmico desenvolvido em HTML, CSS e JavaScript.
+
 ## O que é
-Protótipo de alta fidelidade em HTML/CSS/JS puro (sem dependências nem
-build) de uma plataforma de recepção hospitalar inteligente, com três partes:
 
-- index.html ............ hub de acesso ao protótipo
-- patient.html .......... fluxo completo do paciente
-  (identificação → motivo → conversa com IA → encaminhamento → resumo → confirmação)
-- dashboard.html ........ painel da recepção (KPIs, lista de atendimentos,
-  dados coletados pela IA e ações: assumir, encaminhar, finalizar)
-- design-system.html .... biblioteca de design (cores, tipografia, componentes)
+Protótipo de alta fidelidade de uma plataforma para organizar o atendimento hospitalar. Inclui:
 
-Como abrir
-----------
-1. Baixe o repositório e abra index.html no navegador
-2. Dentro da pasta MedFlow, abra o arquivo index.html em um navegador
-(Chrome, Edge ou Firefox).
-Para ver a integração entre as telas, abra o fluxo do paciente e o
-dashboard em duas abas do mesmo navegador: um atendimento concluído pelo
-paciente aparece no dashboard com um aviso.
+- `index.html`: página inicial do protótipo
+- `patient.html`: fluxo do paciente, da identificação à confirmação do atendimento
+- `dashboard.html`: painel da recepção com lista e status dos atendimentos
+- `design-system.html`: biblioteca de cores, tipografia e componentes
 
-Regras do protótipo
--------------------
-- A IA nunca diagnostica e nunca inventa informação: sempre que não tem
-  certeza, encaminha para atendimento humano, com número de atendimento.
-- Status sempre exibidos com texto e ícone (nunca apenas cor).
-- Fluxo do paciente com opção de idioma (português, inglês, espanhol).
-- Acessibilidade: navegação por teclado, foco visível, labels em todos os
-  campos e um objetivo por tela.
+A conversa apresentada como IA é simulada por regras e opções predefinidas.
 
-Dados
------
-Os atendimentos ficam salvos no navegador (localStorage). Para voltar ao
-estado inicial do dashboard, é só limpar os dados do site no navegador.
+## Como abrir
+
+1. Baixe e extraia o repositório.
+2. Na pasta do repositório, abra `index.html` em um navegador.
+3. Para ver a integração, abra `patient.html` e `dashboard.html` em duas abas do mesmo navegador. Os atendimentos concluídos pelo paciente aparecem no painel.
+
+## Regras do protótipo
+
+- Não realiza diagnósticos; encaminha para atendimento humano quando necessário.
+- Exibe o status com texto e ícone.
+- Oferece português, inglês e espanhol.
+- Inclui navegação por teclado, foco visível e campos identificados.
+
+## Dados
+
+Os atendimentos ficam salvos no navegador (`localStorage`). Para restaurar os dados iniciais do painel, limpe os dados do site no navegador.
