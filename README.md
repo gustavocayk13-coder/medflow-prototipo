@@ -1,7 +1,8 @@
-MedFlow — Protótipo de recepção hospitalar com IA
-=================================================
+# MedFlow — Protótipo de recepção hospitalar com IA
+
 Protótipo acadêmico de recepção hospitalar digital, com fluxo para pacientes e painel da recepção, desenvolvido em HTML, CSS e JavaScript.
-O que é
+
+## O que é
 -------
 Protótipo de alta fidelidade em HTML/CSS/JS puro (sem dependências nem
 build) de uma plataforma de recepção hospitalar inteligente, com três partes:
